@@ -69,7 +69,7 @@ class _XmlRemote(object):
     self.manifestUrl = manifestUrl
     self.remoteAlias = alias
     self.reviewUrl = review
-    #self.resolvedFetchUrl = self._resolveFetchUrl()
+    self.resolvedFetchUrl = self._resolveFetchUrl()
 
   def __eq__(self, other):
     return self.__dict__ == other.__dict__
